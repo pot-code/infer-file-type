@@ -1,0 +1,1 @@
+# Infer file type
