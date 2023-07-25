@@ -1,5 +1,6 @@
 [package]
 name = "infer-file-type"
+description = "infer file type and add file extensions accordingly"
 version = "0.1.0"
 edition = "2021"
 
