@@ -5,8 +5,8 @@ appenders:
             pattern: "{d(%Y-%m-%d %H:%M:%S)(utc)} [{f}:{L}] {h({l})} {m}{n}"
         filters:
             - kind: threshold
-              level: debug
+              level: info
 root:
-    level: debug
+    level: info
     appenders:
         - stdout
