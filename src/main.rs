@@ -34,7 +34,7 @@ fn main() {
             debug!("inferred mimetype for {} is {}", path.display(), t.mime_type());
 
             if args.dry {
-                info!("renamed {} to {}.{}", path.display(), path.display(), t);
+                info!("renamed {} to {}.{}", path.display(), path.display(), t.extension());
                 continue;
             }
 
